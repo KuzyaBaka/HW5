@@ -11,13 +11,16 @@ legend.innerText = `My first form on JS(WOW)`;
 const inputFieldset1 = document.createElement(`input`);
 inputFieldset1.type = `text`;
 inputFieldset1.placeholder = `Login/E-mail`;
+inputFieldset1.className = `inputs`
 
 const inputFieldset2 = document.createElement(`input`);
 inputFieldset2.type = `password`;
 inputFieldset2.placeholder = `Password`;
+inputFieldset2.className = `inputs`
 
 const buttonFieldset = document.createElement(`input`)
 buttonFieldset.type = `submit`
+buttonFieldset.className = `inputs`
 
 main.prepend(form)
 form.prepend(fieldset);
